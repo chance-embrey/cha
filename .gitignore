@@ -174,7 +174,4 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
-.history/default.txt
-history/default.txt
 history
-./history
