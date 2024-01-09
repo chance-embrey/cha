@@ -21,6 +21,8 @@ export const getCompletion = async (
       content: prompt,
     },
   ];
+
+  try {
   const stream = await openai.chat.completions.create({
     model: "gpt-4",
     // @ts-ignore
@@ -37,4 +39,8 @@ export const getCompletion = async (
   }
 
   return;
+  } catch (err) {
+    console.error(err);
+    return;
+  }
 };
