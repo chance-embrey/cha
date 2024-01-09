@@ -1,0 +1,1 @@
+[{"role":"system","content":"You are a helpful assistant."},{"role":"user","content":"How do I add 2 numbers in Typescript?"},{"role":"user","content":"divide?"},{"role":"user","content":"what about division?"},{"role":"user","content":"what is a web component"}]

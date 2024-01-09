@@ -1,0 +1,17 @@
+{
+  "name": "chat-gpt-cli",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "cha": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.24.1"
+  }
+}
